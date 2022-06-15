@@ -1,0 +1,23 @@
+@keyframes moveInBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(5rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: scale(1);
+  }
+  15% {
+    transform: translate(-$particleSize/2, -$particleSize/2) scale(2);
+  }
+  50% {
+    transform: scale(1);
+  }
+}

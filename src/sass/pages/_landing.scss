@@ -1,0 +1,53 @@
+.landing-container {
+  display: block;
+}
+
+.landing {
+  color: $color-white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+}
+
+.landing-textbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.landing-confirmation {
+  font-weight: bold;
+  @include centerHorizontalVertical;
+
+  &--success {
+    color: greenyellow;
+  }
+  &--fail {
+    color: red;
+  }
+  &--loading {
+    color: $color-primary-dark;
+  }
+}
+
+.heading-primary {
+  margin-top: 9rem;
+  &__text--main {
+    text-align: center;
+    display: block;
+    animation: moveInBottom 1s ease-out;
+    padding-bottom: 1rem;
+  }
+  &__text--secondary {
+    text-align: center;
+    display: block;
+    animation: moveInBottom 1s ease-out;
+    margin: 0;
+    font-size: $default-font-size;
+    padding: 0 1rem;
+  }
+}

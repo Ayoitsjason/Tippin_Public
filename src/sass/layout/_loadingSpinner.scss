@@ -1,0 +1,37 @@
+.loading-spinner__container {
+  @include centerHorizontalVertical;
+}
+
+.loading-spinner {
+  i {
+    display: block;
+    position: absolute;
+    opacity: 1;
+
+    b {
+      display: block;
+      width: $particleSize;
+      height: $particleSize;
+      border-radius: $particleSize;
+      background: $color-white;
+      box-shadow: 0px 0px 14px $color-primary;
+
+      animation-name: spin;
+      animation-duration: $lapDuration;
+      animation-iteration-count: infinite;
+      animation-timing-function: ease-in-out;
+    }
+  }
+
+  @for $i from 1 through $particles {
+    i:nth-child(#{$i}) {
+      $angle: ($i / $particles) * 360;
+
+      transform: rotate(#{$angle}deg) translate3d(#{$radius}px, 0, 0);
+
+      b {
+        animation-delay: $i * ($lapDuration / ($particles - 2));
+      }
+    }
+  }
+}

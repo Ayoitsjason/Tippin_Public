@@ -1,0 +1,10 @@
+.header-container {
+  display: block;
+  padding: 0rem 5rem;
+  margin: 0;
+
+  &__inner {
+    padding: 1rem 0rem;
+    position: relative;
+  }
+}

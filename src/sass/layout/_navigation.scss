@@ -1,0 +1,32 @@
+.navigation-container {
+  color: $color-white;
+  font-size: $default-font-size-small;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  line-height: inherit;
+  height: 2.5rem;
+}
+
+.navigation-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.logo {
+  color: $color-primary-light;
+  font-size: $default-font-size-medium;
+  font-weight: 600;
+}
+
+.navigation-container a {
+  text-decoration: none;
+  color: $color-primary-light;
+}
+
+.navigation-container a:hover {
+  color: $color-primary;
+  opacity: 0.5;
+}
