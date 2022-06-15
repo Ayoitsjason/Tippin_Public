@@ -15,6 +15,8 @@ Tech used: React, Redux, CSS, SASS, Websocket
 Back End
 Tech used: Node.js, Express, MongoDB, Twilio API, Websocket
 
+Copyright (c) 2021 Jason Le
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
