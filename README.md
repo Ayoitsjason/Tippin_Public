@@ -1,4 +1,4 @@
-# Tippin_Waitlist
+# Tippin
 Full Stack Web application for small service based businesses. Provides database for customers, checkin process with rewards for loyalty, and instant messaging for open communication.
 
 Link to Project: http://tippin.io/
