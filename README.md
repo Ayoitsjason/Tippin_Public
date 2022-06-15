@@ -12,7 +12,7 @@ Login: test@example.com Password: password
 Front End
 Tech used: React, Redux, CSS, SASS, Websocket
 
-Back end
+Back End
 Tech used: Node.js, Express, MongoDB, Twilio API, Websocket
 
 # Getting Started with Create React App
