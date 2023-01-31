@@ -23,7 +23,7 @@ On the back-end, I set up a Node.js server using Express.js for API routes. The 
 
 The front-end was developed using React and Redux, with a focus on creating an smooth and simple user experience. The interface lets owners manage their customer database, coupons, and allows customers to checkin to their favorite stores. The responsive design made the application accessible on desktop, tablets, and mobile devices.
 
-In addition, I integrated Twilio (third-party API) to be able to receive and send text messaging. A Websocket server was used publish incoming messages to front end subscribers allowing for real time communication. The application was deployed on a cloud platform, using a combination of AWS and Cyclic.
+In addition, I integrated Twilio (third-party API) to allow owners to receive and send text messaging. A Websocket server was used to publish incoming messages to front end subscribers allowing for real time communication. The application was deployed on cloud platforms, using a combination of AWS and Cyclic.
 
 # Lessons Learned:
 
@@ -34,7 +34,7 @@ Developing Tippin taught me several lessons that have helped me grow as a Softwa
 3. Effective error handling: Learn how to troubleshoot and fix issues that come up to maintain a stable and reliable application.
 4. Testing: Testing throughout the development process helps catch and resolve bugs early on, improving quality of Software.
 5. User Experience: I learned the value of creating more detailed error messages for better user experience.
-6. Security: Pay attention to data that is being passed, make sure to only show what is needed to insure privacy and security.
+6. Security: Pay close attention to data that is being passed, only show what is needed to insure privacy and security.
 
 These lessons have helped me grow as a Software Engineer and reminded me of how important it is to continuously learn which allows me to create more value in my work.
 
