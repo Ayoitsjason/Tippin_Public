@@ -1,5 +1,5 @@
 # Tippin
-Full Stack Web Solution designed specifically for small service-based businesses. With features including customer database, an efficient check-in process that rewards customer loyalty, and an instant messaging system for open communication, this application streamlines operations and enhances customer engagement.
+Full Stack Web Solution designed specifically for small service-based businesses. With features including customer database, an efficient check-in process that rewards customer loyalty, and an instant messaging system for open communication.
 
 Link to Project: http://tippin.io/
 
