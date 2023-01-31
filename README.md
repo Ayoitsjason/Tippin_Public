@@ -21,7 +21,7 @@ Tippin was built using the MERN (MongoDB, Express.js, React, and Node.js) stack.
 
 On the back-end, I set up a Node.js server using Express.js for API routes. The data was stored in a MongoDB database where i utilized Mongoose for access and manipulation of the data. For security measures I implemented JWT authentication, password hashing, and data validation.
 
-The front-end was developed using React and Redux, with a focus on creating an smooth and simple user experience. The interface lets owners manage their customer database, manage and see their awarded coupons, and allows customers to checkin to their favorite stores. The responsive design made the application accessible on desktop, tablets, and mobile devices.
+The front-end was developed using React and Redux, with a focus on creating an smooth and simple user experience. The interface lets owners manage their customer database, coupons, and allows customers to checkin to their favorite stores. The responsive design made the application accessible on desktop, tablets, and mobile devices.
 
 In addition, I integrated Twilio (third-party API) to be able to receive and send text messaging. A Websocket server was used publish incoming messages to front end subscribers allowing for real time communication. The application was deployed on a cloud platform, using a combination of AWS and Cyclic.
 
