@@ -9,10 +9,10 @@ Login: test@example.com Password: password
 
 # How It's Made:
 
-Front End
-**Tech used:** React, Redux, CSS, SASS, Websocket
+**Front End**
+Tech used: React, Redux, CSS, SASS, Websocket
 
-Back End
-**Tech used:** Node.js, Express, MongoDB, Twilio API, Websocket
+**Back End**
+Tech used: Node.js, Express, MongoDB, Twilio API, Websocket
 
 Copyright (c) 2021 Jason Le
