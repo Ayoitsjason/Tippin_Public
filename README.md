@@ -25,6 +25,9 @@ The front-end was developed using React and Redux, with a focus on creating an s
 
 In addition, I integrated Twilio (third-party API) to allow owners to receive and send text messaging. A Websocket server was used to publish incoming messages to front end subscribers allowing for real time communication. The application was deployed on cloud platforms, using a combination of AWS and Cyclic.
 
+# Optimizations
+ 1. Asset optimization: Implemented lazy loading where assets are loaded only when needed which reduces loading times.
+ 
 # Lessons Learned:
 
 Developing Tippin taught me several lessons that have helped me grow as a Software Engineer:
